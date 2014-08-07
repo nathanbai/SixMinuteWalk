@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">This is my bidirectional Android - Arduino Client</string>
+    <string name="console">Console:</string>
+    <string name="app_name">Six Minute Walk</string>
+    
+    <string name="servo_name">my Servo:</string>
+    
+    <string name="poti_name">my Poti:</string>
+
+    <string name="setIpTail_start">Set Ip for start</string>
+    <string name="setIpTail_return">Set Ip for return</string>
+    
+</resources>

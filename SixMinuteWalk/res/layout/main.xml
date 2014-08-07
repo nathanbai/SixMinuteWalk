@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editIpTail_start"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/connect_start"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/editIpTail_start"
+            android:text="Connect To Start Terminal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editIpTail_return"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:width="20dp" />
+
+        <Button
+            android:id="@+id/connect_return"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/editIpTail_return"
+            android:text="Connect To Return Terminal" />
+
+    </RelativeLayout>
+
+<TextView
+        android:id="@+id/TextTravelTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time duration for the test (minutes): " 
+	/>
+<EditText
+    android:id="@+id/edit_time"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:text="6"
+ />
+<TextView
+        android:id="@+id/TextTravelDistance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance of the path (meters): " 
+	/>
+
+<EditText
+    android:id="@+id/edit_distance"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="30" 
+ />
+
+<Button
+ android:id="@+id/btn_save"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:text="Save configuration"
+ />
+
+<TextView
+        android:id="@+id/Traveled_Distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Traveled Distance: " 
+	/>
+
+    <TextView
+        android:id="@+id/Average_Speed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Average Speed: " 
+	/>
+
+    <TextView
+        android:id="@+id/Remaining_Time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Traveled:" 
+	/>
+
+    <TextView
+        android:id="@+id/Final_Distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Distance:"
+	/>
+    
+    <TextView
+        android:id="@+id/TestStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Status: OFF" 
+	/>
+    
+    <TextView
+        android:id="@+id/WalkingDirection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Walking Direction:" 
+	/>
+    
+    <TextView
+        android:id="@+id/ConnectionStartPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start terminal: Offline" 
+	/>
+    
+    <TextView
+        android:id="@+id/ConnectionReturnPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrun terminal: Offline" 
+	/>
+    
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Result: " 
+	/>
+</LinearLayout>
